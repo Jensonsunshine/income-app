@@ -136,7 +136,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
+/* WEBPACK VAR INJECTION */(function(uni) {
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -192,13 +192,16 @@ var _default = {
     return {
       orderTypeLise: [{
         name: '我要办税',
-        icon: '1.png'
+        icon: '1.png',
+        url: '/pages/do/do'
       }, {
         name: '我要查询',
-        icon: '2.png'
+        icon: '2.png',
+        url: ''
       }, {
         name: '公众服务',
-        icon: '3.png'
+        icon: '3.png',
+        url: '/pages/service/service/service'
       }],
       background: ['color1', 'color2', 'color3'],
       indicatorDots: true,
@@ -220,10 +223,17 @@ var _default = {
     },
     durationChange: function durationChange(e) {
       this.duration = e.detail.value;
+    },
+    goToPage: function goToPage(e) {
+      console.log("跳转页面：" + e);
+      uni.switchTab({
+        url: e
+      });
     }
   }
 };
 exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
 

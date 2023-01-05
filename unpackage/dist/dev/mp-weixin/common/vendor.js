@@ -2384,7 +2384,7 @@ module.exports = _defineProperty, module.exports.__esModule = true, module.expor
 
 /***/ }),
 
-/***/ 1051:
+/***/ 1075:
 /*!***************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/pages/extUI/table/tableData.js ***!
   \***************************************************************************************/
@@ -2612,7 +2612,7 @@ module.exports = _toPropertyKey, module.exports.__esModule = true, module.export
 
 /***/ }),
 
-/***/ 1172:
+/***/ 1196:
 /*!****************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/components/u-charts/u-charts.js ***!
   \****************************************************************************************/
@@ -7373,11 +7373,11 @@ if (( false ? undefined : _typeof(module)) === "object" && _typeof(module.export
   module.exports = Charts;
   //export default Charts;//建议使用nodejs的module导出方式，如报错请使用export方式导出
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"], __webpack_require__(/*! ./../../../../../../../Applications/HBuilderX-Alpha.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/webpack/buildin/module.js */ 1173)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"], __webpack_require__(/*! ./../../../../../../../Applications/HBuilderX-Alpha.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/webpack/buildin/module.js */ 1197)(module)))
 
 /***/ }),
 
-/***/ 1173:
+/***/ 1197:
 /*!***********************************!*\
   !*** (webpack)/buildin/module.js ***!
   \***********************************/
@@ -7430,7 +7430,7 @@ module.exports = _typeof, module.exports.__esModule = true, module.exports["defa
 
 /***/ }),
 
-/***/ 1202:
+/***/ 1226:
 /*!******************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/common/html-parser.js ***!
   \******************************************************************************/
@@ -7754,7 +7754,29 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 1285:
+/***/ 13:
+/*!************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/toPrimitive.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _typeof = __webpack_require__(/*! ./typeof.js */ 12)["default"];
+function _toPrimitive(input, hint) {
+  if (_typeof(input) !== "object" || input === null) return input;
+  var prim = input[Symbol.toPrimitive];
+  if (prim !== undefined) {
+    var res = prim.call(input, hint || "default");
+    if (_typeof(res) !== "object") return res;
+    throw new TypeError("@@toPrimitive must return a primitive value.");
+  }
+  return (hint === "string" ? String : Number)(input);
+}
+module.exports = _toPrimitive, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+
+/***/ 1309:
 /*!************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-icons/components/uni-icons/icons.js ***!
   \************************************************************************************************************/
@@ -8776,29 +8798,7 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 13:
-/*!************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/toPrimitive.js ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var _typeof = __webpack_require__(/*! ./typeof.js */ 12)["default"];
-function _toPrimitive(input, hint) {
-  if (_typeof(input) !== "object" || input === null) return input;
-  var prim = input[Symbol.toPrimitive];
-  if (prim !== undefined) {
-    var res = prim.call(input, hint || "default");
-    if (_typeof(res) !== "object") return res;
-    throw new TypeError("@@toPrimitive must return a primitive value.");
-  }
-  return (hint === "string" ? String : Number)(input);
-}
-module.exports = _toPrimitive, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
-/***/ 1314:
+/***/ 1338:
 /*!***************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-forms/components/uni-forms/validate.js ***!
   \***************************************************************************************************************/
@@ -9490,7 +9490,7 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 1315:
+/***/ 1339:
 /*!************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-forms/components/uni-forms/utils.js ***!
   \************************************************************************************************************/
@@ -9826,7 +9826,7 @@ exports.isEqual = isEqual;
 
 /***/ }),
 
-/***/ 1344:
+/***/ 1368:
 /*!*************************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-datetime-picker/components/uni-datetime-picker/i18n/index.js ***!
   \*************************************************************************************************************************************/
@@ -9841,9 +9841,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 1345));
-var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 1346));
-var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1347));
+var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 1369));
+var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 1370));
+var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1371));
 var _default = {
   en: _en.default,
   'zh-Hans': _zhHans.default,
@@ -9853,7 +9853,7 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 1345:
+/***/ 1369:
 /*!************************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-datetime-picker/components/uni-datetime-picker/i18n/en.json ***!
   \************************************************************************************************************************************/
@@ -9864,7 +9864,7 @@ module.exports = JSON.parse("{\"uni-datetime-picker.selectDate\":\"select date\"
 
 /***/ }),
 
-/***/ 1346:
+/***/ 1370:
 /*!*****************************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-datetime-picker/components/uni-datetime-picker/i18n/zh-Hans.json ***!
   \*****************************************************************************************************************************************/
@@ -9875,7 +9875,7 @@ module.exports = JSON.parse("{\"uni-datetime-picker.selectDate\":\"选择日期\
 
 /***/ }),
 
-/***/ 1347:
+/***/ 1371:
 /*!*****************************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-datetime-picker/components/uni-datetime-picker/i18n/zh-Hant.json ***!
   \*****************************************************************************************************************************************/
@@ -9886,7 +9886,7 @@ module.exports = JSON.parse("{\"uni-datetime-picker.selectDate\":\"選擇日期\
 
 /***/ }),
 
-/***/ 1355:
+/***/ 1379:
 /*!**************************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-data-picker/components/uni-data-pickerview/uni-data-picker.js ***!
   \**************************************************************************************************************************************/
@@ -10451,7 +10451,7 @@ module.exports = _construct, module.exports.__esModule = true, module.exports["d
 
 /***/ }),
 
-/***/ 1405:
+/***/ 1429:
 /*!*************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-countdown/components/uni-countdown/i18n/index.js ***!
   \*************************************************************************************************************************/
@@ -10466,9 +10466,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 1406));
-var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 1407));
-var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1408));
+var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 1430));
+var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 1431));
+var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1432));
 var _default = {
   en: _en.default,
   'zh-Hans': _zhHans.default,
@@ -10478,7 +10478,7 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 1406:
+/***/ 1430:
 /*!************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-countdown/components/uni-countdown/i18n/en.json ***!
   \************************************************************************************************************************/
@@ -10489,7 +10489,7 @@ module.exports = JSON.parse("{\"uni-countdown.day\":\"day\",\"uni-countdown.h\":
 
 /***/ }),
 
-/***/ 1407:
+/***/ 1431:
 /*!*****************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-countdown/components/uni-countdown/i18n/zh-Hans.json ***!
   \*****************************************************************************************************************************/
@@ -10500,7 +10500,7 @@ module.exports = JSON.parse("{\"uni-countdown.day\":\"天\",\"uni-countdown.h\":
 
 /***/ }),
 
-/***/ 1408:
+/***/ 1432:
 /*!*****************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-countdown/components/uni-countdown/i18n/zh-Hant.json ***!
   \*****************************************************************************************************************************/
@@ -10511,7 +10511,7 @@ module.exports = JSON.parse("{\"uni-countdown.day\":\"天\",\"uni-countdown.h\":
 
 /***/ }),
 
-/***/ 1423:
+/***/ 1447:
 /*!*************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-load-more/components/uni-load-more/i18n/index.js ***!
   \*************************************************************************************************************************/
@@ -10526,9 +10526,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 1424));
-var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 1425));
-var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1426));
+var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 1448));
+var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 1449));
+var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1450));
 var _default = {
   en: _en.default,
   'zh-Hans': _zhHans.default,
@@ -10538,7 +10538,7 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 1424:
+/***/ 1448:
 /*!************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-load-more/components/uni-load-more/i18n/en.json ***!
   \************************************************************************************************************************/
@@ -10549,7 +10549,7 @@ module.exports = JSON.parse("{\"uni-load-more.contentdown\":\"Pull up to show mo
 
 /***/ }),
 
-/***/ 1425:
+/***/ 1449:
 /*!*****************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-load-more/components/uni-load-more/i18n/zh-Hans.json ***!
   \*****************************************************************************************************************************/
@@ -10560,7 +10560,7 @@ module.exports = JSON.parse("{\"uni-load-more.contentdown\":\"上拉显示更多
 
 /***/ }),
 
-/***/ 1426:
+/***/ 1450:
 /*!*****************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-load-more/components/uni-load-more/i18n/zh-Hant.json ***!
   \*****************************************************************************************************************************/
@@ -10571,7 +10571,7 @@ module.exports = JSON.parse("{\"uni-load-more.contentdown\":\"上拉顯示更多
 
 /***/ }),
 
-/***/ 1448:
+/***/ 1472:
 /*!************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-popup/components/uni-popup/popup.js ***!
   \************************************************************************************************************/
@@ -10613,7 +10613,7 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 1456:
+/***/ 1480:
 /*!*****************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-popup/components/uni-popup/i18n/index.js ***!
   \*****************************************************************************************************************/
@@ -10628,9 +10628,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 1457));
-var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 1458));
-var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1459));
+var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 1481));
+var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 1482));
+var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1483));
 var _default = {
   en: _en.default,
   'zh-Hans': _zhHans.default,
@@ -10640,7 +10640,7 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 1457:
+/***/ 1481:
 /*!****************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-popup/components/uni-popup/i18n/en.json ***!
   \****************************************************************************************************************/
@@ -10651,7 +10651,7 @@ module.exports = JSON.parse("{\"uni-popup.cancel\":\"cancel\",\"uni-popup.ok\":\
 
 /***/ }),
 
-/***/ 1458:
+/***/ 1482:
 /*!*********************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-popup/components/uni-popup/i18n/zh-Hans.json ***!
   \*********************************************************************************************************************/
@@ -10662,7 +10662,7 @@ module.exports = JSON.parse("{\"uni-popup.cancel\":\"取消\",\"uni-popup.ok\":\
 
 /***/ }),
 
-/***/ 1459:
+/***/ 1483:
 /*!*********************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-popup/components/uni-popup/i18n/zh-Hant.json ***!
   \*********************************************************************************************************************/
@@ -10691,7 +10691,7 @@ module.exports = _setPrototypeOf, module.exports.__esModule = true, module.expor
 
 /***/ }),
 
-/***/ 1509:
+/***/ 1533:
 /*!***************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-pagination/components/uni-pagination/i18n/index.js ***!
   \***************************************************************************************************************************/
@@ -10706,11 +10706,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 1510));
-var _es = _interopRequireDefault(__webpack_require__(/*! ./es.json */ 1511));
-var _fr = _interopRequireDefault(__webpack_require__(/*! ./fr.json */ 1512));
-var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 1513));
-var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1514));
+var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 1534));
+var _es = _interopRequireDefault(__webpack_require__(/*! ./es.json */ 1535));
+var _fr = _interopRequireDefault(__webpack_require__(/*! ./fr.json */ 1536));
+var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 1537));
+var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1538));
 var _default = {
   en: _en.default,
   es: _es.default,
@@ -10722,7 +10722,7 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 1510:
+/***/ 1534:
 /*!**************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-pagination/components/uni-pagination/i18n/en.json ***!
   \**************************************************************************************************************************/
@@ -10733,7 +10733,7 @@ module.exports = JSON.parse("{\"uni-pagination.prevText\":\"prev\",\"uni-paginat
 
 /***/ }),
 
-/***/ 1511:
+/***/ 1535:
 /*!**************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-pagination/components/uni-pagination/i18n/es.json ***!
   \**************************************************************************************************************************/
@@ -10744,7 +10744,7 @@ module.exports = JSON.parse("{\"uni-pagination.prevText\":\"anterior\",\"uni-pag
 
 /***/ }),
 
-/***/ 1512:
+/***/ 1536:
 /*!**************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-pagination/components/uni-pagination/i18n/fr.json ***!
   \**************************************************************************************************************************/
@@ -10755,7 +10755,7 @@ module.exports = JSON.parse("{\"uni-pagination.prevText\":\"précédente\",\"uni
 
 /***/ }),
 
-/***/ 1513:
+/***/ 1537:
 /*!*******************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-pagination/components/uni-pagination/i18n/zh-Hans.json ***!
   \*******************************************************************************************************************************/
@@ -10766,7 +10766,7 @@ module.exports = JSON.parse("{\"uni-pagination.prevText\":\"上一页\",\"uni-pa
 
 /***/ }),
 
-/***/ 1514:
+/***/ 1538:
 /*!*******************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-pagination/components/uni-pagination/i18n/zh-Hant.json ***!
   \*******************************************************************************************************************************/
@@ -10777,7 +10777,7 @@ module.exports = JSON.parse("{\"uni-pagination.prevText\":\"上一頁\",\"uni-pa
 
 /***/ }),
 
-/***/ 1569:
+/***/ 1593:
 /*!*******************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-swipe-action/components/uni-swipe-action-item/mpwxs.js ***!
   \*******************************************************************************************************************************/
@@ -10855,7 +10855,7 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 1570:
+/***/ 1594:
 /*!**********************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-swipe-action/components/uni-swipe-action-item/bindingx.js ***!
   \**********************************************************************************************************************************/
@@ -10875,7 +10875,7 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 1571:
+/***/ 1595:
 /*!*********************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-swipe-action/components/uni-swipe-action-item/mpother.js ***!
   \*********************************************************************************************************************************/
@@ -10895,7 +10895,29 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 1581:
+/***/ 16:
+/*!*************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/isNativeReflectConstruct.js ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _isNativeReflectConstruct() {
+  if (typeof Reflect === "undefined" || !Reflect.construct) return false;
+  if (Reflect.construct.sham) return false;
+  if (typeof Proxy === "function") return true;
+  try {
+    Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {}));
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
+module.exports = _isNativeReflectConstruct, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+
+/***/ 1605:
 /*!***************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-search-bar/components/uni-search-bar/i18n/index.js ***!
   \***************************************************************************************************************************/
@@ -10910,9 +10932,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 1582));
-var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 1583));
-var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1584));
+var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 1606));
+var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 1607));
+var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1608));
 var _default = {
   en: _en.default,
   'zh-Hans': _zhHans.default,
@@ -10922,7 +10944,7 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 1582:
+/***/ 1606:
 /*!**************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-search-bar/components/uni-search-bar/i18n/en.json ***!
   \**************************************************************************************************************************/
@@ -10933,7 +10955,7 @@ module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-
 
 /***/ }),
 
-/***/ 1583:
+/***/ 1607:
 /*!*******************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-search-bar/components/uni-search-bar/i18n/zh-Hans.json ***!
   \*******************************************************************************************************************************/
@@ -10944,7 +10966,7 @@ module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-
 
 /***/ }),
 
-/***/ 1584:
+/***/ 1608:
 /*!*******************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-search-bar/components/uni-search-bar/i18n/zh-Hant.json ***!
   \*******************************************************************************************************************************/
@@ -10955,7 +10977,7 @@ module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-
 
 /***/ }),
 
-/***/ 1592:
+/***/ 1616:
 /*!*****************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-calendar/components/uni-calendar/util.js ***!
   \*****************************************************************************************************************/
@@ -10973,7 +10995,7 @@ exports.default = void 0;
 var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/typeof */ 12));
 var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ 22));
 var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/createClass */ 23));
-var _calendar = _interopRequireDefault(__webpack_require__(/*! ./calendar.js */ 1593));
+var _calendar = _interopRequireDefault(__webpack_require__(/*! ./calendar.js */ 1617));
 var Calendar = /*#__PURE__*/function () {
   function Calendar() {
     var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
@@ -11366,7 +11388,7 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 1593:
+/***/ 1617:
 /*!*********************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-calendar/components/uni-calendar/calendar.js ***!
   \*********************************************************************************************************************/
@@ -11884,7 +11906,7 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 1594:
+/***/ 1618:
 /*!***********************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-calendar/components/uni-calendar/i18n/index.js ***!
   \***********************************************************************************************************************/
@@ -11899,9 +11921,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 1595));
-var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 1596));
-var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1597));
+var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 1619));
+var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 1620));
+var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1621));
 var _default = {
   en: _en.default,
   'zh-Hans': _zhHans.default,
@@ -11911,7 +11933,7 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 1595:
+/***/ 1619:
 /*!**********************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-calendar/components/uni-calendar/i18n/en.json ***!
   \**********************************************************************************************************************/
@@ -11922,7 +11944,7 @@ module.exports = JSON.parse("{\"uni-calender.ok\":\"ok\",\"uni-calender.cancel\"
 
 /***/ }),
 
-/***/ 1596:
+/***/ 1620:
 /*!***************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-calendar/components/uni-calendar/i18n/zh-Hans.json ***!
   \***************************************************************************************************************************/
@@ -11933,7 +11955,7 @@ module.exports = JSON.parse("{\"uni-calender.ok\":\"确定\",\"uni-calender.canc
 
 /***/ }),
 
-/***/ 1597:
+/***/ 1621:
 /*!***************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-calendar/components/uni-calendar/i18n/zh-Hant.json ***!
   \***************************************************************************************************************************/
@@ -11944,29 +11966,7 @@ module.exports = JSON.parse("{\"uni-calender.ok\":\"確定\",\"uni-calender.canc
 
 /***/ }),
 
-/***/ 16:
-/*!*************************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/isNativeReflectConstruct.js ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _isNativeReflectConstruct() {
-  if (typeof Reflect === "undefined" || !Reflect.construct) return false;
-  if (Reflect.construct.sham) return false;
-  if (typeof Proxy === "function") return true;
-  try {
-    Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {}));
-    return true;
-  } catch (e) {
-    return false;
-  }
-}
-module.exports = _isNativeReflectConstruct, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
-/***/ 1619:
+/***/ 1643:
 /*!*************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-fav/components/uni-fav/i18n/index.js ***!
   \*************************************************************************************************************/
@@ -11981,9 +11981,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 1620));
-var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 1621));
-var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1622));
+var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 1644));
+var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 1645));
+var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1646));
 var _default = {
   en: _en.default,
   'zh-Hans': _zhHans.default,
@@ -11993,7 +11993,7 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 1620:
+/***/ 1644:
 /*!************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-fav/components/uni-fav/i18n/en.json ***!
   \************************************************************************************************************/
@@ -12004,7 +12004,7 @@ module.exports = JSON.parse("{\"uni-fav.collect\":\"collect\",\"uni-fav.collecte
 
 /***/ }),
 
-/***/ 1621:
+/***/ 1645:
 /*!*****************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-fav/components/uni-fav/i18n/zh-Hans.json ***!
   \*****************************************************************************************************************/
@@ -12015,7 +12015,7 @@ module.exports = JSON.parse("{\"uni-fav.collect\":\"收藏\",\"uni-fav.collected
 
 /***/ }),
 
-/***/ 1622:
+/***/ 1646:
 /*!*****************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-fav/components/uni-fav/i18n/zh-Hant.json ***!
   \*****************************************************************************************************************/
@@ -12026,7 +12026,7 @@ module.exports = JSON.parse("{\"uni-fav.collect\":\"收藏\",\"uni-fav.collected
 
 /***/ }),
 
-/***/ 1630:
+/***/ 1654:
 /*!*************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/index.js ***!
   \*************************************************************************************************************************/
@@ -12041,9 +12041,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 1631));
-var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 1632));
-var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1633));
+var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 1655));
+var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 1656));
+var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1657));
 var _default = {
   en: _en.default,
   'zh-Hans': _zhHans.default,
@@ -12053,7 +12053,7 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 1631:
+/***/ 1655:
 /*!************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/en.json ***!
   \************************************************************************************************************************/
@@ -12064,7 +12064,7 @@ module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"shop\",\"uni-good
 
 /***/ }),
 
-/***/ 1632:
+/***/ 1656:
 /*!*****************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/zh-Hans.json ***!
   \*****************************************************************************************************************************/
@@ -12075,7 +12075,7 @@ module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"店铺\",\"uni-go
 
 /***/ }),
 
-/***/ 1633:
+/***/ 1657:
 /*!*****************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/zh-Hant.json ***!
   \*****************************************************************************************************************************/
@@ -12086,7 +12086,7 @@ module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"店鋪\",\"uni-go
 
 /***/ }),
 
-/***/ 1641:
+/***/ 1665:
 /*!********************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-transition/components/uni-transition/createAnimation.js ***!
   \********************************************************************************************************************************/
@@ -12238,7 +12238,165 @@ module.exports = _toConsumableArray, module.exports.__esModule = true, module.ex
 
 /***/ }),
 
-/***/ 1710:
+/***/ 173:
+/*!*******************************************************************************!*\
+  !*** /Users/zhangxu/Documents/HBuilderProjects/income/common/graceChecker.js ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+/**
+数据验证（表单验证）
+来自 grace.hcoder.net 
+作者 hcoder 深海
+*/
+var _default = {
+  error: '',
+  check: function check(data, rule) {
+    for (var i = 0; i < rule.length; i++) {
+      if (!rule[i].checkType) {
+        return true;
+      }
+      if (!rule[i].name) {
+        return true;
+      }
+      if (!rule[i].errorMsg) {
+        return true;
+      }
+      if (!data[rule[i].name]) {
+        this.error = rule[i].errorMsg;
+        return false;
+      }
+      switch (rule[i].checkType) {
+        case 'string':
+          var reg = new RegExp('^.{' + rule[i].checkRule + '}$');
+          if (!reg.test(data[rule[i].name])) {
+            this.error = rule[i].errorMsg;
+            return false;
+          }
+          break;
+        case 'int':
+          var reg = new RegExp('^(-[1-9]|[1-9])[0-9]{' + rule[i].checkRule + '}$');
+          if (!reg.test(data[rule[i].name])) {
+            this.error = rule[i].errorMsg;
+            return false;
+          }
+          break;
+          break;
+        case 'between':
+          if (!this.isNumber(data[rule[i].name])) {
+            this.error = rule[i].errorMsg;
+            return false;
+          }
+          var minMax = rule[i].checkRule.split(',');
+          minMax[0] = Number(minMax[0]);
+          minMax[1] = Number(minMax[1]);
+          if (data[rule[i].name] > minMax[1] || data[rule[i].name] < minMax[0]) {
+            this.error = rule[i].errorMsg;
+            return false;
+          }
+          break;
+        case 'betweenD':
+          var reg = /^-?[1-9][0-9]?$/;
+          if (!reg.test(data[rule[i].name])) {
+            this.error = rule[i].errorMsg;
+            return false;
+          }
+          var minMax = rule[i].checkRule.split(',');
+          minMax[0] = Number(minMax[0]);
+          minMax[1] = Number(minMax[1]);
+          if (data[rule[i].name] > minMax[1] || data[rule[i].name] < minMax[0]) {
+            this.error = rule[i].errorMsg;
+            return false;
+          }
+          break;
+        case 'betweenF':
+          var reg = /^-?[0-9][0-9]?.+[0-9]+$/;
+          if (!reg.test(data[rule[i].name])) {
+            this.error = rule[i].errorMsg;
+            return false;
+          }
+          var minMax = rule[i].checkRule.split(',');
+          minMax[0] = Number(minMax[0]);
+          minMax[1] = Number(minMax[1]);
+          if (data[rule[i].name] > minMax[1] || data[rule[i].name] < minMax[0]) {
+            this.error = rule[i].errorMsg;
+            return false;
+          }
+          break;
+        case 'same':
+          if (data[rule[i].name] != rule[i].checkRule) {
+            this.error = rule[i].errorMsg;
+            return false;
+          }
+          break;
+        case 'notsame':
+          if (data[rule[i].name] == rule[i].checkRule) {
+            this.error = rule[i].errorMsg;
+            return false;
+          }
+          break;
+        case 'email':
+          var reg = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+          if (!reg.test(data[rule[i].name])) {
+            this.error = rule[i].errorMsg;
+            return false;
+          }
+          break;
+        case 'phoneno':
+          var reg = /^1[0-9]{10,10}$/;
+          if (!reg.test(data[rule[i].name])) {
+            this.error = rule[i].errorMsg;
+            return false;
+          }
+          break;
+        case 'zipcode':
+          var reg = /^[0-9]{6}$/;
+          if (!reg.test(data[rule[i].name])) {
+            this.error = rule[i].errorMsg;
+            return false;
+          }
+          break;
+        case 'reg':
+          var reg = new RegExp(rule[i].checkRule);
+          if (!reg.test(data[rule[i].name])) {
+            this.error = rule[i].errorMsg;
+            return false;
+          }
+          break;
+        case 'in':
+          if (rule[i].checkRule.indexOf(data[rule[i].name]) == -1) {
+            this.error = rule[i].errorMsg;
+            return false;
+          }
+          break;
+        case 'notnull':
+          if (data[rule[i].name] == null || data[rule[i].name].length < 1) {
+            this.error = rule[i].errorMsg;
+            return false;
+          }
+          break;
+      }
+    }
+    return true;
+  },
+  isNumber: function isNumber(checkVal) {
+    var reg = /^-?[1-9][0-9]?.?[0-9]*$/;
+    return reg.test(checkVal);
+  }
+};
+exports.default = _default;
+
+/***/ }),
+
+/***/ 1734:
 /*!****************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-dateformat/components/uni-dateformat/date-format.js ***!
   \****************************************************************************************************************************/
@@ -12456,165 +12614,7 @@ function friendlyDate(time, _ref) {
 
 /***/ }),
 
-/***/ 173:
-/*!*******************************************************************************!*\
-  !*** /Users/zhangxu/Documents/HBuilderProjects/income/common/graceChecker.js ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-/**
-数据验证（表单验证）
-来自 grace.hcoder.net 
-作者 hcoder 深海
-*/
-var _default = {
-  error: '',
-  check: function check(data, rule) {
-    for (var i = 0; i < rule.length; i++) {
-      if (!rule[i].checkType) {
-        return true;
-      }
-      if (!rule[i].name) {
-        return true;
-      }
-      if (!rule[i].errorMsg) {
-        return true;
-      }
-      if (!data[rule[i].name]) {
-        this.error = rule[i].errorMsg;
-        return false;
-      }
-      switch (rule[i].checkType) {
-        case 'string':
-          var reg = new RegExp('^.{' + rule[i].checkRule + '}$');
-          if (!reg.test(data[rule[i].name])) {
-            this.error = rule[i].errorMsg;
-            return false;
-          }
-          break;
-        case 'int':
-          var reg = new RegExp('^(-[1-9]|[1-9])[0-9]{' + rule[i].checkRule + '}$');
-          if (!reg.test(data[rule[i].name])) {
-            this.error = rule[i].errorMsg;
-            return false;
-          }
-          break;
-          break;
-        case 'between':
-          if (!this.isNumber(data[rule[i].name])) {
-            this.error = rule[i].errorMsg;
-            return false;
-          }
-          var minMax = rule[i].checkRule.split(',');
-          minMax[0] = Number(minMax[0]);
-          minMax[1] = Number(minMax[1]);
-          if (data[rule[i].name] > minMax[1] || data[rule[i].name] < minMax[0]) {
-            this.error = rule[i].errorMsg;
-            return false;
-          }
-          break;
-        case 'betweenD':
-          var reg = /^-?[1-9][0-9]?$/;
-          if (!reg.test(data[rule[i].name])) {
-            this.error = rule[i].errorMsg;
-            return false;
-          }
-          var minMax = rule[i].checkRule.split(',');
-          minMax[0] = Number(minMax[0]);
-          minMax[1] = Number(minMax[1]);
-          if (data[rule[i].name] > minMax[1] || data[rule[i].name] < minMax[0]) {
-            this.error = rule[i].errorMsg;
-            return false;
-          }
-          break;
-        case 'betweenF':
-          var reg = /^-?[0-9][0-9]?.+[0-9]+$/;
-          if (!reg.test(data[rule[i].name])) {
-            this.error = rule[i].errorMsg;
-            return false;
-          }
-          var minMax = rule[i].checkRule.split(',');
-          minMax[0] = Number(minMax[0]);
-          minMax[1] = Number(minMax[1]);
-          if (data[rule[i].name] > minMax[1] || data[rule[i].name] < minMax[0]) {
-            this.error = rule[i].errorMsg;
-            return false;
-          }
-          break;
-        case 'same':
-          if (data[rule[i].name] != rule[i].checkRule) {
-            this.error = rule[i].errorMsg;
-            return false;
-          }
-          break;
-        case 'notsame':
-          if (data[rule[i].name] == rule[i].checkRule) {
-            this.error = rule[i].errorMsg;
-            return false;
-          }
-          break;
-        case 'email':
-          var reg = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
-          if (!reg.test(data[rule[i].name])) {
-            this.error = rule[i].errorMsg;
-            return false;
-          }
-          break;
-        case 'phoneno':
-          var reg = /^1[0-9]{10,10}$/;
-          if (!reg.test(data[rule[i].name])) {
-            this.error = rule[i].errorMsg;
-            return false;
-          }
-          break;
-        case 'zipcode':
-          var reg = /^[0-9]{6}$/;
-          if (!reg.test(data[rule[i].name])) {
-            this.error = rule[i].errorMsg;
-            return false;
-          }
-          break;
-        case 'reg':
-          var reg = new RegExp(rule[i].checkRule);
-          if (!reg.test(data[rule[i].name])) {
-            this.error = rule[i].errorMsg;
-            return false;
-          }
-          break;
-        case 'in':
-          if (rule[i].checkRule.indexOf(data[rule[i].name]) == -1) {
-            this.error = rule[i].errorMsg;
-            return false;
-          }
-          break;
-        case 'notnull':
-          if (data[rule[i].name] == null || data[rule[i].name].length < 1) {
-            this.error = rule[i].errorMsg;
-            return false;
-          }
-          break;
-      }
-    }
-    return true;
-  },
-  isNumber: function isNumber(checkVal) {
-    var reg = /^-?[1-9][0-9]?.?[0-9]*$/;
-    return reg.test(checkVal);
-  }
-};
-exports.default = _default;
-
-/***/ }),
-
-/***/ 1730:
+/***/ 1754:
 /*!*****************************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-file-picker/components/uni-file-picker/choose-and-upload-file.js ***!
   \*****************************************************************************************************************************************/
@@ -12832,7 +12832,7 @@ function chooseAndUploadFile() {
 
 /***/ }),
 
-/***/ 1731:
+/***/ 1755:
 /*!************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-file-picker/components/uni-file-picker/utils.js ***!
   \************************************************************************************************************************/
@@ -12996,7 +12996,7 @@ exports.get_file_data = get_file_data;
 
 /***/ }),
 
-/***/ 1774:
+/***/ 1798:
 /*!*******************************************************************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/uni_modules/uni-datetime-picker/components/uni-datetime-picker/util.js ***!
   \*******************************************************************************************************************************/
@@ -29466,6 +29466,60 @@ var _default = {
       "navigationBarTitleText": "办税",
       "enablePullDownRefresh": false
     }
+  }, {
+    "path": "pages/do/info/info",
+    "style": {
+      "navigationBarTitleText": "专项附加扣除",
+      "enablePullDownRefresh": false,
+      "navigationBarTextStyle": "black",
+      "navigationBarBackgroundColor": "white",
+      "app-plus": {
+        "titleNView": {
+          "backButton": {
+            "title": "返回",
+            "background": "#007aff"
+          }
+        }
+      }
+    }
+  }, {
+    "path": "pages/service/service/IncomeDetails",
+    "style": {
+      "navigationBarTitleText": "收入纳税明细查询",
+      "enablePullDownRefresh": false,
+      "navigationBarTextStyle": "black",
+      "navigationBarBackgroundColor": "white",
+      "app-plus": {
+        "titleNView": {
+          "backButton": {
+            "title": "返回",
+            "background": "#007aff"
+          }
+        }
+      }
+    }
+  }, {
+    "path": "pages/service/service/selectIncome",
+    "style": {
+      "navigationBarTitleText": "收入纳税明细查询",
+      "enablePullDownRefresh": false,
+      "navigationBarTextStyle": "black",
+      "navigationBarBackgroundColor": "white",
+      "app-plus": {
+        "titleNView": {
+          "backButton": {
+            "title": "返回",
+            "background": "#007aff"
+          },
+          "buttons": [{
+            "text": "批量申诉",
+            "fontSize": "15px",
+            "width": "88px",
+            "color": "#007aff"
+          }]
+        }
+      }
+    }
   }],
   "subPackages": [{
     "root": "pages/API",
@@ -30194,477 +30248,1200 @@ exports.default = void 0;
 var _default = {
   "pages": {
     "pages/tabBar/home/home": {
-      "navigationBarTitleText": "首页"
+      "navigationBarTitleText": "首页",
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/tabBar/API/API": {
-      "navigationBarTitleText": "办税"
+      "navigationBarTitleText": "办税",
+      "usingComponents": {
+        "set-tab-bar": "/components/api-set-tabbar"
+      },
+      "usingAutoImportComponents": {
+        "u-link": "/components/u-link/u-link"
+      }
     },
     "pages/tabBar/template/template": {
-      "navigationBarTitleText": "01"
+      "navigationBarTitleText": "01",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "u-link": "/components/u-link/u-link"
+      }
     },
     "pages/tabBar/extUI/extUI": {
-      "navigationBarTitleText": "服务1"
+      "navigationBarTitleText": "服务1",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "u-link": "/components/u-link/u-link"
+      }
     },
     "pages/component/view/view": {
-      "navigationBarTitleText": "view"
+      "navigationBarTitleText": "view",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/scroll-view/scroll-view": {
-      "navigationBarTitleText": "scroll-view"
+      "navigationBarTitleText": "scroll-view",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/swiper/swiper": {
-      "navigationBarTitleText": "swiper"
+      "navigationBarTitleText": "swiper",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/cover-view/cover-view": {
-      "navigationBarTitleText": "cover-view"
+      "navigationBarTitleText": "cover-view",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/movable-view/movable-view": {
-      "navigationBarTitleText": "movable-view"
+      "navigationBarTitleText": "movable-view",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/text/text": {
-      "navigationBarTitleText": "text"
+      "navigationBarTitleText": "text",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/rich-text/rich-text": {
-      "navigationBarTitleText": "rich-text"
+      "navigationBarTitleText": "rich-text",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/progress/progress": {
-      "navigationBarTitleText": "progress"
+      "navigationBarTitleText": "progress",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head",
+        "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons"
+      }
     },
     "pages/component/button/button": {
-      "navigationBarTitleText": "button"
+      "navigationBarTitleText": "button",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/checkbox/checkbox": {
-      "navigationBarTitleText": "checkbox"
+      "navigationBarTitleText": "checkbox",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/form/form": {
-      "navigationBarTitleText": "form"
+      "navigationBarTitleText": "form",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/input/input": {
-      "navigationBarTitleText": "input"
+      "navigationBarTitleText": "input",
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/component/label/label": {
-      "navigationBarTitleText": "label"
+      "navigationBarTitleText": "label",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/picker/picker": {
-      "navigationBarTitleText": "picker"
+      "navigationBarTitleText": "picker",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/picker-view/picker-view": {
-      "navigationBarTitleText": "picker-view"
+      "navigationBarTitleText": "picker-view",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/radio/radio": {
-      "navigationBarTitleText": "radio"
+      "navigationBarTitleText": "radio",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/slider/slider": {
-      "navigationBarTitleText": "slider"
+      "navigationBarTitleText": "slider",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/switch/switch": {
-      "navigationBarTitleText": "switch"
+      "navigationBarTitleText": "switch",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/textarea/textarea": {
-      "navigationBarTitleText": "textarea"
+      "navigationBarTitleText": "textarea",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/editor/editor": {
-      "navigationBarTitleText": "editor"
+      "navigationBarTitleText": "editor",
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/component/navigator/navigator": {
-      "navigationBarTitleText": "navigator"
+      "navigationBarTitleText": "navigator",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/navigator/navigate/navigate": {
-      "navigationBarTitleText": "navigatePage"
+      "navigationBarTitleText": "navigatePage",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/navigator/redirect/redirect": {
-      "navigationBarTitleText": "redirectPage"
+      "navigationBarTitleText": "redirectPage",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/image/image": {
-      "navigationBarTitleText": "image"
+      "navigationBarTitleText": "image",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/video/video": {
-      "navigationBarTitleText": "video"
+      "navigationBarTitleText": "video",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/map/map": {
-      "navigationBarTitleText": "map"
+      "navigationBarTitleText": "map",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/canvas/canvas": {
-      "navigationBarTitleText": "canvas"
+      "navigationBarTitleText": "canvas",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/component/web-view/web-view": {
-      "navigationBarTitleText": "web-view"
+      "navigationBarTitleText": "web-view",
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/my/my/my": {
-      "navigationStyle": "custom"
+      "navigationStyle": "custom",
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/service/service/service": {
-      "navigationBarTitleText": "服务"
+      "navigationBarTitleText": "服务",
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "uni_modules/uni-upgrade-center-app/pages/upgrade-popup": {
-      "disableScroll": true
+      "disableScroll": true,
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/tabBar/component/component": {
       "navigationBarTitleText": "",
-      "enablePullDownRefresh": false
+      "enablePullDownRefresh": false,
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "u-link": "/components/u-link/u-link"
+      }
     },
     "pages/service/service/grid/grid": {
       "navigationBarTitleText": "",
-      "enablePullDownRefresh": false
+      "enablePullDownRefresh": false,
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/do/do": {
       "navigationBarTitleText": "办税",
-      "enablePullDownRefresh": false
+      "enablePullDownRefresh": false,
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
+    },
+    "pages/do/info/info": {
+      "navigationBarTitleText": "专项附加扣除",
+      "enablePullDownRefresh": false,
+      "navigationBarTextStyle": "black",
+      "navigationBarBackgroundColor": "white",
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
+    },
+    "pages/service/service/IncomeDetails": {
+      "navigationBarTitleText": "收入纳税明细查询",
+      "enablePullDownRefresh": false,
+      "navigationBarTextStyle": "black",
+      "navigationBarBackgroundColor": "white",
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
+    },
+    "pages/service/service/selectIncome": {
+      "navigationBarTitleText": "收入纳税明细查询",
+      "enablePullDownRefresh": false,
+      "navigationBarTextStyle": "black",
+      "navigationBarBackgroundColor": "white",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons"
+      }
     },
     "pages/API/login/login": {
-      "navigationBarTitleText": "授权登录"
+      "navigationBarTitleText": "授权登录",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/get-user-info/get-user-info": {
-      "navigationBarTitleText": "获取用户信息"
+      "navigationBarTitleText": "获取用户信息",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/request-payment/request-payment": {
-      "navigationBarTitleText": "发起支付"
+      "navigationBarTitleText": "发起支付",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/share/share": {
-      "navigationBarTitleText": "分享"
+      "navigationBarTitleText": "分享",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/set-navigation-bar-title/set-navigation-bar-title": {
-      "navigationBarTitleText": "设置界面标题"
+      "navigationBarTitleText": "设置界面标题",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/show-loading/show-loading": {
-      "navigationBarTitleText": "加载提示框"
+      "navigationBarTitleText": "加载提示框",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/navigator/navigator": {
-      "navigationBarTitleText": "页面跳转"
+      "navigationBarTitleText": "页面跳转",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/navigator/new-page/new-vue-page-1": {
-      "navigationBarTitleText": "新VUE页面1"
+      "navigationBarTitleText": "新VUE页面1",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/navigator/new-page/new-vue-page-2": {
-      "navigationBarTitleText": "新VUE页面2"
+      "navigationBarTitleText": "新VUE页面2",
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/API/navigator/new-page/new-nvue-page-1": {
-      "navigationBarTitleText": "新NVUE页面1"
+      "navigationBarTitleText": "新NVUE页面1",
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/API/navigator/new-page/new-nvue-page-2": {
-      "navigationBarTitleText": "新NVUE页面2"
+      "navigationBarTitleText": "新NVUE页面2",
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/API/pull-down-refresh/pull-down-refresh": {
       "navigationBarTitleText": "下拉刷新",
-      "enablePullDownRefresh": true
+      "enablePullDownRefresh": true,
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/animation/animation": {
-      "navigationBarTitleText": "创建动画"
+      "navigationBarTitleText": "创建动画",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/get-node-info/get-node-info": {
-      "navigationBarTitleText": "节点信息"
+      "navigationBarTitleText": "节点信息",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/intersection-observer/intersection-observer": {
-      "navigationBarTitleText": "节点布局相交状态"
+      "navigationBarTitleText": "节点布局相交状态",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/canvas/canvas": {
-      "navigationBarTitleText": "创建绘画"
+      "navigationBarTitleText": "创建绘画",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/action-sheet/action-sheet": {
-      "navigationBarTitleText": "操作菜单"
+      "navigationBarTitleText": "操作菜单",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/modal/modal": {
-      "navigationBarTitleText": "模态弹窗"
+      "navigationBarTitleText": "模态弹窗",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/toast/toast": {
-      "navigationBarTitleText": "消息提示框"
+      "navigationBarTitleText": "消息提示框",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/get-network-type/get-network-type": {
-      "navigationBarTitleText": "获取设备网络状态"
+      "navigationBarTitleText": "获取设备网络状态",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/get-system-info/get-system-info": {
-      "navigationBarTitleText": "获取设备系统信息"
+      "navigationBarTitleText": "获取设备系统信息",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/add-phone-contact/add-phone-contact": {
-      "navigationBarTitleText": "添加手机联系人"
+      "navigationBarTitleText": "添加手机联系人",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/on-accelerometer-change/on-accelerometer-change": {
-      "navigationBarTitleText": "监听加速度计数据"
+      "navigationBarTitleText": "监听加速度计数据",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/on-compass-change/on-compass-change": {
-      "navigationBarTitleText": "监听罗盘数据"
+      "navigationBarTitleText": "监听罗盘数据",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/make-phone-call/make-phone-call": {
-      "navigationBarTitleText": "打电话"
+      "navigationBarTitleText": "打电话",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/scan-code/scan-code": {
-      "navigationBarTitleText": "扫码"
+      "navigationBarTitleText": "扫码",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/clipboard/clipboard": {
-      "navigationBarTitleText": "剪贴板"
+      "navigationBarTitleText": "剪贴板",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/request/request": {
-      "navigationBarTitleText": "网络请求"
+      "navigationBarTitleText": "网络请求",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/upload-file/upload-file": {
-      "navigationBarTitleText": "上传文件"
+      "navigationBarTitleText": "上传文件",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/download-file/download-file": {
-      "navigationBarTitleText": "下载文件"
+      "navigationBarTitleText": "下载文件",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/image/image": {
-      "navigationBarTitleText": "图片"
+      "navigationBarTitleText": "图片",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/voice/voice": {
-      "navigationBarTitleText": "录音"
+      "navigationBarTitleText": "录音",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/inner-audio/inner-audio": {
-      "navigationBarTitleText": "音频"
+      "navigationBarTitleText": "音频",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/background-audio/background-audio": {
-      "navigationBarTitleText": "背景音频"
+      "navigationBarTitleText": "背景音频",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/video/video": {
-      "navigationBarTitleText": "视频"
+      "navigationBarTitleText": "视频",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/file/file": {
-      "navigationBarTitleText": "文件"
+      "navigationBarTitleText": "文件",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/map/map": {
-      "navigationBarTitleText": "map"
+      "navigationBarTitleText": "map",
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/API/get-location/get-location": {
-      "navigationBarTitleText": "获取位置"
+      "navigationBarTitleText": "获取位置",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head",
+        "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup"
+      }
     },
     "pages/API/open-location/open-location": {
-      "navigationBarTitleText": "查看位置"
+      "navigationBarTitleText": "查看位置",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/choose-location/choose-location": {
-      "navigationBarTitleText": "使用地图选择位置"
+      "navigationBarTitleText": "使用地图选择位置",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/storage/storage": {
-      "navigationBarTitleText": "数据存储"
+      "navigationBarTitleText": "数据存储",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/sqlite/sqlite": {
-      "navigationBarTitleText": "SQLite"
+      "navigationBarTitleText": "SQLite",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/rewarded-video-ad/rewarded-video-ad": {
-      "navigationBarTitleText": "激励视频广告"
+      "navigationBarTitleText": "激励视频广告",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/brightness/brightness": {
-      "navigationBarTitleText": "屏幕亮度"
+      "navigationBarTitleText": "屏幕亮度",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/save-media/save-media": {
-      "navigationBarTitleText": "保存媒体到本地"
+      "navigationBarTitleText": "保存媒体到本地",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/bluetooth/bluetooth": {
-      "navigationBarTitleText": "蓝牙"
+      "navigationBarTitleText": "蓝牙",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/soter/soter": {
-      "navigationBarTitleText": "生物认证"
+      "navigationBarTitleText": "生物认证",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/ibeacon/ibeacon": {
-      "navigationBarTitleText": "iBeacon"
+      "navigationBarTitleText": "iBeacon",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/vibrate/vibrate": {
-      "navigationBarTitleText": "震动"
+      "navigationBarTitleText": "震动",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/websocket-socketTask/websocket-socketTask": {
-      "navigationBarTitleText": "websocket-socketTask"
+      "navigationBarTitleText": "websocket-socketTask",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/API/websocket-global/websocket-global": {
-      "navigationBarTitleText": "websocket-global"
+      "navigationBarTitleText": "websocket-global",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/extUI/forms/forms": {
-      "navigationBarTitleText": "Form 表单"
+      "navigationBarTitleText": "Form 表单",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-forms": "/uni_modules/uni-forms/components/uni-forms/uni-forms",
+        "uni-forms-item": "/uni_modules/uni-forms/components/uni-forms-item/uni-forms-item",
+        "uni-easyinput": "/uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput",
+        "uni-data-checkbox": "/uni_modules/uni-data-checkbox/components/uni-data-checkbox/uni-data-checkbox",
+        "uni-datetime-picker": "/uni_modules/uni-datetime-picker/components/uni-datetime-picker/uni-datetime-picker",
+        "uni-data-picker": "/uni_modules/uni-data-picker/components/uni-data-picker/uni-data-picker",
+        "uni-data-select": "/uni_modules/uni-data-select/components/uni-data-select/uni-data-select",
+        "uni-segmented-control": "/uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control"
+      }
     },
     "pages/extUI/group/group": {
-      "navigationBarTitleText": "Group 分组"
+      "navigationBarTitleText": "Group 分组",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-group": "/uni_modules/uni-group/components/uni-group/uni-group"
+      }
     },
     "pages/extUI/badge/badge": {
-      "navigationBarTitleText": "Badge 数字角标"
+      "navigationBarTitleText": "Badge 数字角标",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-badge": "/uni_modules/uni-badge/components/uni-badge/uni-badge"
+      }
     },
     "pages/extUI/breadcrumb/breadcrumb": {
-      "navigationBarTitleText": "Breadcrumb 面包屑"
+      "navigationBarTitleText": "Breadcrumb 面包屑",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-breadcrumb": "/uni_modules/uni-breadcrumb/components/uni-breadcrumb/uni-breadcrumb",
+        "uni-breadcrumb-item": "/uni_modules/uni-breadcrumb/components/uni-breadcrumb-item/uni-breadcrumb-item"
+      }
     },
     "pages/extUI/countdown/countdown": {
-      "navigationBarTitleText": "Countdown 倒计时"
+      "navigationBarTitleText": "Countdown 倒计时",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-countdown": "/uni_modules/uni-countdown/components/uni-countdown/uni-countdown"
+      }
     },
     "pages/extUI/drawer/drawer": {
-      "navigationBarTitleText": "Drawer 抽屉"
+      "navigationBarTitleText": "Drawer 抽屉",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-drawer": "/uni_modules/uni-drawer/components/uni-drawer/uni-drawer"
+      }
     },
     "pages/extUI/icons/icons": {
-      "navigationBarTitleText": "Icons 图标"
+      "navigationBarTitleText": "Icons 图标",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons"
+      }
     },
     "pages/extUI/load-more/load-more": {
-      "navigationBarTitleText": "LoadMore 加载更多"
+      "navigationBarTitleText": "LoadMore 加载更多",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more"
+      }
     },
     "pages/extUI/nav-bar/nav-bar": {
       "navigationBarTitleText": "NavBar 导航栏",
       "navigationStyle": "custom",
-      "enablePullDownRefresh": true
+      "enablePullDownRefresh": true,
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-nav-bar": "/uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar",
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons"
+      }
     },
     "pages/extUI/number-box/number-box": {
-      "navigationBarTitleText": "NumberBox 数字输入框"
+      "navigationBarTitleText": "NumberBox 数字输入框",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-number-box": "/uni_modules/uni-number-box/components/uni-number-box/uni-number-box"
+      }
     },
     "pages/extUI/popup/popup": {
-      "navigationBarTitleText": "Popup 弹出层"
+      "navigationBarTitleText": "Popup 弹出层",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+        "uni-popup-message": "/uni_modules/uni-popup/components/uni-popup-message/uni-popup-message",
+        "uni-popup-dialog": "/uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog",
+        "uni-popup-share": "/uni_modules/uni-popup/components/uni-popup-share/uni-popup-share"
+      }
     },
     "pages/extUI/segmented-control/segmented-control": {
-      "navigationBarTitleText": "SegmentedControl 分段器"
+      "navigationBarTitleText": "SegmentedControl 分段器",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-segmented-control": "/uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control"
+      }
     },
     "pages/extUI/tag/tag": {
-      "navigationBarTitleText": "Tag 标签"
+      "navigationBarTitleText": "Tag 标签",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-tag": "/uni_modules/uni-tag/components/uni-tag/uni-tag"
+      }
     },
     "pages/extUI/list/list": {
-      "navigationBarTitleText": "List 列表"
+      "navigationBarTitleText": "List 列表",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-list": "/uni_modules/uni-list/components/uni-list/uni-list",
+        "uni-list-item": "/uni_modules/uni-list/components/uni-list-item/uni-list-item"
+      }
     },
     "pages/extUI/card/card": {
-      "navigationBarTitleText": "Card 卡片"
+      "navigationBarTitleText": "Card 卡片",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+        "uni-list": "/uni_modules/uni-list/components/uni-list/uni-list",
+        "uni-list-item": "/uni_modules/uni-list/components/uni-list-item/uni-list-item"
+      }
     },
     "pages/extUI/collapse/collapse": {
-      "navigationBarTitleText": "Collapse 折叠面板"
+      "navigationBarTitleText": "Collapse 折叠面板",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-collapse": "/uni_modules/uni-collapse/components/uni-collapse/uni-collapse",
+        "uni-collapse-item": "/uni_modules/uni-collapse/components/uni-collapse-item/uni-collapse-item",
+        "uni-list": "/uni_modules/uni-list/components/uni-list/uni-list",
+        "uni-list-item": "/uni_modules/uni-list/components/uni-list-item/uni-list-item"
+      }
     },
     "pages/extUI/pagination/pagination": {
-      "navigationBarTitleText": "Pagination 分页器"
+      "navigationBarTitleText": "Pagination 分页器",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-pagination": "/uni_modules/uni-pagination/components/uni-pagination/uni-pagination"
+      }
     },
     "pages/extUI/swiper-dot/swiper-dot": {
-      "navigationBarTitleText": "SwiperDot 轮播图指示点"
+      "navigationBarTitleText": "SwiperDot 轮播图指示点",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-swiper-dot": "/uni_modules/uni-swiper-dot/components/uni-swiper-dot/uni-swiper-dot",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section"
+      }
     },
     "pages/extUI/grid/grid": {
-      "navigationBarTitleText": "Grid 宫格"
+      "navigationBarTitleText": "Grid 宫格",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-grid": "/uni_modules/uni-grid/components/uni-grid/uni-grid",
+        "uni-grid-item": "/uni_modules/uni-grid/components/uni-grid-item/uni-grid-item",
+        "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+        "uni-badge": "/uni_modules/uni-badge/components/uni-badge/uni-badge"
+      }
     },
     "pages/extUI/rate/rate": {
-      "navigationBarTitleText": "Rate 评分"
+      "navigationBarTitleText": "Rate 评分",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-rate": "/uni_modules/uni-rate/components/uni-rate/uni-rate"
+      }
     },
     "pages/extUI/steps/steps": {
-      "navigationBarTitleText": "Steps 步骤条"
+      "navigationBarTitleText": "Steps 步骤条",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-steps": "/uni_modules/uni-steps/components/uni-steps/uni-steps"
+      }
     },
     "pages/extUI/notice-bar/notice-bar": {
-      "navigationBarTitleText": "NoticeBar 通告栏"
+      "navigationBarTitleText": "NoticeBar 通告栏",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-notice-bar": "/uni_modules/uni-notice-bar/components/uni-notice-bar/uni-notice-bar"
+      }
     },
     "pages/extUI/swipe-action/swipe-action": {
-      "navigationBarTitleText": "SwipeAction 滑动操作"
+      "navigationBarTitleText": "SwipeAction 滑动操作",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-swipe-action": "/uni_modules/uni-swipe-action/components/uni-swipe-action/uni-swipe-action",
+        "uni-swipe-action-item": "/uni_modules/uni-swipe-action/components/uni-swipe-action-item/uni-swipe-action-item"
+      }
     },
     "pages/extUI/search-bar/search-bar": {
-      "navigationBarTitleText": "SearchBar 搜索栏"
+      "navigationBarTitleText": "SearchBar 搜索栏",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-search-bar": "/uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar",
+        "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons"
+      }
     },
     "pages/extUI/calendar/calendar": {
-      "navigationBarTitleText": "Calendar 日历"
+      "navigationBarTitleText": "Calendar 日历",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-calendar": "/uni_modules/uni-calendar/components/uni-calendar/uni-calendar"
+      }
     },
     "pages/extUI/indexed-list/indexed-list": {
       "navigationBarTitleText": "IndexedList 索引列表",
-      "disableScroll": true
+      "disableScroll": true,
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-indexed-list": "/uni_modules/uni-indexed-list/components/uni-indexed-list/uni-indexed-list"
+      }
     },
     "pages/extUI/fab/fab": {
-      "navigationBarTitleText": "Fab 悬浮按钮"
+      "navigationBarTitleText": "Fab 悬浮按钮",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-fab": "/uni_modules/uni-fab/components/uni-fab/uni-fab"
+      }
     },
     "pages/extUI/fav/fav": {
-      "navigationBarTitleText": "Fav 收藏按钮"
+      "navigationBarTitleText": "Fav 收藏按钮",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-fav": "/uni_modules/uni-fav/components/uni-fav/uni-fav",
+        "uni-nav-bar": "/uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar"
+      }
     },
     "pages/extUI/goods-nav/goods-nav": {
-      "navigationBarTitleText": "GoodsNav 商品导航"
+      "navigationBarTitleText": "GoodsNav 商品导航",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-goods-nav": "/uni_modules/uni-goods-nav/components/uni-goods-nav/uni-goods-nav"
+      }
     },
     "pages/extUI/section/section": {
-      "navigationBarTitleText": "Section 标题栏"
+      "navigationBarTitleText": "Section 标题栏",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section"
+      }
     },
     "pages/extUI/transition/transition": {
-      "navigationBarTitleText": "Transition 过渡动画"
+      "navigationBarTitleText": "Transition 过渡动画",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-transition": "/uni_modules/uni-transition/components/uni-transition/uni-transition"
+      }
     },
     "pages/extUI/title/title": {
-      "navigationBarTitleText": "Title 章节标题"
+      "navigationBarTitleText": "Title 章节标题",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-title": "/uni_modules/uni-title/components/uni-title/uni-title"
+      }
     },
     "pages/extUI/tooltip/tooltip": {
-      "navigationBarTitleText": "Tooltip 文字提示"
+      "navigationBarTitleText": "Tooltip 文字提示",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-tooltip": "/uni_modules/uni-tooltip/components/uni-tooltip/uni-tooltip"
+      }
     },
     "pages/extUI/link/link": {
-      "navigationBarTitleText": "Link 链接"
+      "navigationBarTitleText": "Link 链接",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-link": "/uni_modules/uni-link/components/uni-link/uni-link"
+      }
     },
     "pages/extUI/combox/combox": {
-      "navigationBarTitleText": "Combox 组合框"
+      "navigationBarTitleText": "Combox 组合框",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-combox": "/uni_modules/uni-combox/components/uni-combox/uni-combox"
+      }
     },
-    "pages/extUI/list/chat": {},
+    "pages/extUI/list/chat": {
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-list": "/uni_modules/uni-list/components/uni-list/uni-list",
+        "uni-list-chat": "/uni_modules/uni-list/components/uni-list-chat/uni-list-chat",
+        "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons"
+      }
+    },
     "pages/extUI/table/table": {
       "navigationBarTitleText": "",
-      "enablePullDownRefresh": false
+      "enablePullDownRefresh": false,
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-table": "/uni_modules/uni-table/components/uni-table/uni-table",
+        "uni-tr": "/uni_modules/uni-table/components/uni-tr/uni-tr",
+        "uni-th": "/uni_modules/uni-table/components/uni-th/uni-th",
+        "uni-td": "/uni_modules/uni-table/components/uni-td/uni-td",
+        "uni-pagination": "/uni_modules/uni-pagination/components/uni-pagination/uni-pagination"
+      }
     },
     "pages/extUI/dateformat/dateformat": {
       "navigationBarTitleText": "Dateformat 日期格式化",
-      "enablePullDownRefresh": false
+      "enablePullDownRefresh": false,
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-dateformat": "/uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat"
+      }
     },
     "pages/extUI/data-checkbox/data-checkbox": {
       "navigationBarTitleText": "DataCheckbox 单选复选框",
-      "enablePullDownRefresh": false
+      "enablePullDownRefresh": false,
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-data-checkbox": "/uni_modules/uni-data-checkbox/components/uni-data-checkbox/uni-data-checkbox"
+      }
     },
     "pages/extUI/easyinput/easyinput": {
       "navigationBarTitleText": "Easyinput 增强输入框",
-      "enablePullDownRefresh": false
+      "enablePullDownRefresh": false,
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-easyinput": "/uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput"
+      }
     },
     "pages/extUI/data-picker/data-picker": {
       "navigationBarTitleText": "DataPicker 级联选择",
-      "enablePullDownRefresh": false
+      "enablePullDownRefresh": false,
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-data-picker": "/uni_modules/uni-data-picker/components/uni-data-picker/uni-data-picker"
+      }
     },
     "pages/extUI/data-select/data-select": {
       "navigationBarTitleText": "DataSelect 下拉框",
-      "enablePullDownRefresh": false
+      "enablePullDownRefresh": false,
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-data-select": "/uni_modules/uni-data-select/components/uni-data-select/uni-data-select"
+      }
     },
     "pages/extUI/datetime-picker/datetime-picker": {
       "navigationBarTitleText": "DatetimePicker 日期时间",
-      "enablePullDownRefresh": false
+      "enablePullDownRefresh": false,
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-datetime-picker": "/uni_modules/uni-datetime-picker/components/uni-datetime-picker/uni-datetime-picker"
+      }
     },
     "pages/extUI/row/row": {
       "navigationBarTitleText": "Layout 布局",
-      "enablePullDownRefresh": false
+      "enablePullDownRefresh": false,
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-row": "/uni_modules/uni-row/components/uni-row/uni-row",
+        "uni-col": "/uni_modules/uni-row/components/uni-col/uni-col"
+      }
     },
     "pages/extUI/file-picker/file-picker": {
       "navigationBarTitleText": "FilePicker 文件选择上传",
-      "enablePullDownRefresh": false
+      "enablePullDownRefresh": false,
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-file-picker": "/uni_modules/uni-file-picker/components/uni-file-picker/uni-file-picker"
+      }
     },
     "pages/extUI/space/space": {
       "navigationBarTitleText": "间距",
-      "enablePullDownRefresh": false
+      "enablePullDownRefresh": false,
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-data-checkbox": "/uni_modules/uni-data-checkbox/components/uni-data-checkbox/uni-data-checkbox"
+      }
     },
     "pages/extUI/font/font": {
       "navigationBarTitleText": "字体",
-      "enablePullDownRefresh": false
+      "enablePullDownRefresh": false,
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section"
+      }
     },
     "pages/extUI/color/color": {
       "navigationBarTitleText": "颜色",
-      "enablePullDownRefresh": false
+      "enablePullDownRefresh": false,
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section"
+      }
     },
     "pages/extUI/radius/radius": {
       "navigationBarTitleText": "圆角",
-      "enablePullDownRefresh": false
+      "enablePullDownRefresh": false,
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+        "uni-data-checkbox": "/uni_modules/uni-data-checkbox/components/uni-data-checkbox/uni-data-checkbox"
+      }
     },
     "pages/extUI/button/button": {
       "navigationBarTitleText": "",
-      "enablePullDownRefresh": false
+      "enablePullDownRefresh": false,
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+        "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section"
+      }
     },
     "pages/template/ucharts/ucharts": {
-      "navigationBarTitleText": "uCharts 图表"
+      "navigationBarTitleText": "uCharts 图表",
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/template/nav-default/nav-default": {
-      "navigationBarTitleText": "默认导航栏"
+      "navigationBarTitleText": "默认导航栏",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/template/component-communication/component-communication": {
-      "navigationBarTitleText": "组件通讯"
+      "navigationBarTitleText": "组件通讯",
+      "usingComponents": {
+        "reciver": "/pages/template/component-communication/reciver",
+        "sender": "/pages/template/component-communication/sender",
+        "sender-bus": "/pages/template/component-communication/sender-bus"
+      },
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/template/list2detail-list/list2detail-list": {
       "navigationBarTitleText": "列表到详情示例",
-      "enablePullDownRefresh": true
+      "enablePullDownRefresh": true,
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more"
+      }
     },
     "pages/template/list2detail-detail/list2detail-detail": {
-      "navigationBarTitleText": "详情"
+      "navigationBarTitleText": "详情",
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/template/tabbar/tabbar": {
-      "navigationBarTitleText": "可拖动顶部选项卡"
+      "navigationBarTitleText": "可拖动顶部选项卡",
+      "usingComponents": {
+        "media-item": "/pages/template/tabbar/news-item"
+      },
+      "usingAutoImportComponents": {}
     },
     "pages/template/tabbar/detail/detail": {
-      "navigationBarTitleText": "详情页面"
+      "navigationBarTitleText": "详情页面",
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/template/swiper-vertical/swiper-vertical": {
-      "navigationBarTitleText": "上下滑动切换视频"
+      "navigationBarTitleText": "上下滑动切换视频",
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/template/swiper-list/swiper-list": {
-      "navigationBarTitleText": "swiper-list"
+      "navigationBarTitleText": "swiper-list",
+      "usingComponents": {
+        "swiper-page": "/pages/template/swiper-list/swiper-page"
+      },
+      "usingAutoImportComponents": {}
     },
     "pages/template/scheme/scheme": {
-      "navigationBarTitleText": "打开外部应用"
+      "navigationBarTitleText": "打开外部应用",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/template/vant-button/vant-button": {
-      "navigationBarTitleText": "微信自定义组件示例"
+      "navigationBarTitleText": "微信自定义组件示例",
+      "usingComponents": {},
+      "usingAutoImportComponents": {
+        "page-head": "/components/page-head/page-head"
+      }
     },
     "pages/template/global/global": {
-      "navigationBarTitleText": "GlobalData和vuex"
+      "navigationBarTitleText": "GlobalData和vuex",
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     }
   },
   "globalStyle": {
@@ -32389,7 +33166,7 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 542:
+/***/ 566:
 /*!*****************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/common/permission.js ***!
   \*****************************************************************************/
@@ -32635,7 +33412,47 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 587:
+/***/ 6:
+/*!*********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _iterableToArrayLimit(arr, i) {
+  var _i = null == arr ? null : "undefined" != typeof Symbol && arr[Symbol.iterator] || arr["@@iterator"];
+  if (null != _i) {
+    var _s,
+      _e,
+      _x,
+      _r,
+      _arr = [],
+      _n = !0,
+      _d = !1;
+    try {
+      if (_x = (_i = _i.call(arr)).next, 0 === i) {
+        if (Object(_i) !== _i) return;
+        _n = !1;
+      } else for (; !(_n = (_s = _x.call(_i)).done) && (_arr.push(_s.value), _arr.length !== i); _n = !0) {
+        ;
+      }
+    } catch (err) {
+      _d = !0, _e = err;
+    } finally {
+      try {
+        if (!_n && null != _i["return"] && (_r = _i["return"](), Object(_r) !== _r)) return;
+      } finally {
+        if (_d) throw _e;
+      }
+    }
+    return _arr;
+  }
+}
+module.exports = _iterableToArrayLimit, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+
+/***/ 611:
 /*!***********************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/common/util.js ***!
   \***********************************************************************/
@@ -32717,46 +33534,6 @@ exports.dateUtils = dateUtils;
 
 /***/ }),
 
-/***/ 6:
-/*!*********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _iterableToArrayLimit(arr, i) {
-  var _i = null == arr ? null : "undefined" != typeof Symbol && arr[Symbol.iterator] || arr["@@iterator"];
-  if (null != _i) {
-    var _s,
-      _e,
-      _x,
-      _r,
-      _arr = [],
-      _n = !0,
-      _d = !1;
-    try {
-      if (_x = (_i = _i.call(arr)).next, 0 === i) {
-        if (Object(_i) !== _i) return;
-        _n = !1;
-      } else for (; !(_n = (_s = _x.call(_i)).done) && (_arr.push(_s.value), _arr.length !== i); _n = !0) {
-        ;
-      }
-    } catch (err) {
-      _d = !0, _e = err;
-    } finally {
-      try {
-        if (!_n && null != _i["return"] && (_r = _i["return"](), Object(_r) !== _r)) return;
-      } finally {
-        if (_d) throw _e;
-      }
-    }
-    return _arr;
-  }
-}
-module.exports = _iterableToArrayLimit, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
 /***/ 7:
 /*!***************************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js ***!
@@ -32809,7 +33586,7 @@ module.exports = _nonIterableRest, module.exports.__esModule = true, module.expo
 
 /***/ }),
 
-/***/ 962:
+/***/ 986:
 /*!**************************************************************************!*\
   !*** /Users/zhangxu/Documents/HBuilderProjects/income/common/airport.js ***!
   \**************************************************************************/

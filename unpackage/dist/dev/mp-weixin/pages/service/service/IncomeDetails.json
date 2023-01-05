@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "收入纳税明细查询",
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "white",
+  "usingComponents": {}
+}

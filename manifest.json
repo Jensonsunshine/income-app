@@ -18,7 +18,8 @@
             "delay" : 0
         },
         "modules" : {
-            "Fingerprint" : {}
+            "Fingerprint" : {},
+            "OAuth" : {}
         },
         "distribute" : {
             "android" : {
@@ -68,7 +69,8 @@
                 "speech" : {
                     "ifly" : {}
                 },
-                "ad" : {}
+                "ad" : {},
+                "oauth" : {}
             },
             "orientation" : [ "portrait-primary" ],
             "icons" : {

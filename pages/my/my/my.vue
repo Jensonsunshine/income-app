@@ -11,7 +11,7 @@
 		</view>
 		
 		<view class="list" v-for="(list,list_i) in severList" :key="list_i">
-			<view class="li" v-for="(li,li_i) in list" @tap="toPage(list_i,li_i)" v-bind:class="{'noborder':li_i==list.length-1}"  hover-class="hover" :key="li.name" >
+			<view class="li" v-for="(li,li_i) in list" @click="toPage(li.url)" v-bind:class="{'noborder':li_i==list.length-1}"  hover-class="hover" :key="li.name" >
 				<view class="icon"><image :src="'../../../static/icons-income/my/'+li.icon"></image></view>
 				<view class="text">{{li.name}}</view>
 				<image class="to" src="../../../static/icons-income/my/to.png"></image>
@@ -38,8 +38,8 @@
 				
 				severList:[
 					[
-						{name:'个人信息',icon:'point.jpg'},
-						{name:'任职受雇信息',icon:'quan.jpg'},
+						{name:'个人信息',icon:'point.jpg',url:'./myInfo'},
+						{name:'任职受雇信息',icon:'quan.jpg',url:'./employment'},
 						{name:'家庭成员信息',icon:'momey.jpg'},
 						{name:'银行卡',icon:'renw.jpg'},
 						{name:'企业办税权限',icon:'renw1.jpg'},
@@ -58,7 +58,12 @@
 			};
 		},
 		methods: {
-			
+			toPage(e){
+				console.log(e)
+				uni.navigateTo({
+					url:e
+				})
+			}
 		}
 	}
 </script>

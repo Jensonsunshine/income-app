@@ -1,0 +1,10 @@
+
+.to{
+	float: right;
+	flex-shrink:0;
+	width:35rpx;
+	height:35rpx;
+	line-height: 55rpx;
+	margin-right: 70rpx;
+}
+

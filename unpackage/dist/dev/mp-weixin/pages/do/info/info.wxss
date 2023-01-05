@@ -1,0 +1,9 @@
+
+.info{
+	background-image:url(/static/icons-income/do/info.jpeg);
+	height:100%;
+	width:100%;
+	overflow: hidden;
+	background-size:cover;
+}
+

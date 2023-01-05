@@ -136,12 +136,13 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
+/* WEBPACK VAR INJECTION */(function(uni) {
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
+//
 //
 //
 //
@@ -215,7 +216,8 @@ var _default = {
       }, {
         name: '收入纳税明细查询',
         imgUrl: '/static/icons-income/service/3.jpg',
-        tips: ''
+        tips: '',
+        url: './IncomeDetails'
       }],
       gridList2: [
       //备案
@@ -280,12 +282,16 @@ var _default = {
   methods: {
     gridClick: function gridClick(item, index) {
       //格子菜单点击事件
+      uni.navigateTo({
+        url: item.url
+      });
       console.log(item);
       console.log(index);
     }
   }
 };
 exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
 

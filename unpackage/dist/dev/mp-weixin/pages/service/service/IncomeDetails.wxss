@@ -1,0 +1,54 @@
+.uni-list-cell.data-v-2c634b48 {
+  justify-content: flex-start;
+}
+.grid-title.data-v-2c634b48 {
+  display: flex;
+  align-items: center;
+  font-size: 32rpx;
+  color: rgba(0, 0, 0, 0.63);
+  padding: 30rpx 0;
+  font-weight: 900;
+  background-color: #FFFFFF;
+}
+.grid-title view.data-v-2c634b48 {
+  width: 8rpx;
+  height: 30rpx;
+  background-color: #2a5af4;
+  margin-right: 10rpx;
+  margin-left: 30rpx;
+  border-radius: 40%;
+}
+.grid-title text.data-v-2c634b48 {
+  color: black;
+}
+.grid.data-v-2c634b48 {
+  display: flex;
+  align-items: center;
+  height: 100rpx;
+  background-color: #FFFFFF;
+  border-top: 2rpx solid rgba(172, 172, 172, 0.2);
+}
+.grid .text.data-v-2c634b48 {
+  padding-left: 30rpx;
+  width: 100%;
+  color: #666;
+  font-size: 35rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  color: black;
+}
+.grid .to.data-v-2c634b48 {
+  flex-shrink: 0;
+  width: 40rpx;
+  height: 40rpx;
+  line-height: 100rpx;
+  margin-right: 20rpx;
+}
+.grid .year.data-v-2c634b48 {
+  width: 40rpx;
+  height: 100rpx;
+  font-size: 35rpx;
+  line-height: 100rpx;
+  margin-right: 38%;
+}
+

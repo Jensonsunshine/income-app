@@ -25,7 +25,7 @@
 		</view>
 		<view class="orders">
 			<view class="box">
-				<view class="label" v-for="(row,index) in orderTypeLise" :key="row.name" hover-class="hover"  @tap="toOrderType(index)">
+				<view class="label" v-for="(row,index) in orderTypeLise" :key="row.name" hover-class="hover" @click="goToPage(row.url)">
 					<view class="icon"><image :src="'../../../static/icons-income/'+row.icon"></image></view>
 					{{row.name}}
 				</view>
@@ -34,11 +34,11 @@
 		
 		<view class="img-body">
 			<view class="img-home-body" >
-				<image class="body-img" src="/static/icons-income/home/body.jpg" mode=""></image>
+				<image class="body-img" src="/static/icons-income/home/203.jpeg" mode=""></image>
 			</view>
 			
 			<view class="img-home-body">
-				<image class="footer-img" src="/static/icons-income/home/footer1.png" mode=""></image>
+				<image class="footer-img" src="/static/icons-income/home/204.jpeg" mode=""></image>
 			</view>
 		</view>
 	</view>
@@ -48,9 +48,9 @@
 		data() {
 			return {
 				orderTypeLise:[
-					{name:'我要办税',icon:'1.png'},
-					{name:'我要查询',icon:'2.png'},
-					{name:'公众服务',icon:'3.png'},
+					{name:'我要办税',icon:'1.png',url:'/pages/do/do'},
+					{name:'我要查询',icon:'2.png',url:''},
+					{name:'公众服务',icon:'3.png',url:'/pages/service/service/service'},
 				],
 				background: ['color1', 'color2', 'color3'],
 				indicatorDots: true,
@@ -74,6 +74,12 @@
 			},
 			durationChange(e) {
 				this.duration = e.detail.value
+			},
+			goToPage(e) {
+				console.log("跳转页面："+e)
+				uni.switchTab({
+					url:e
+				})
 			}
 		}
 	}
@@ -150,10 +156,10 @@ page{background-color:#fff}
 	
 	.body-img{
 		width: 100%;
-		// height: ;
+		height:1000upx ;
 	}
 	.footer-img{
 		width: 100%;
-		height: 800upx;
+		height: 1000upx;
 	}
 </style>

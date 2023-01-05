@@ -37,7 +37,10 @@
     "uni_modules/uni-upgrade-center-app/pages/upgrade-popup",
     "pages/tabBar/component/component",
     "pages/service/service/grid/grid",
-    "pages/do/do"
+    "pages/do/do",
+    "pages/do/info/info",
+    "pages/service/service/IncomeDetails",
+    "pages/service/service/selectIncome"
   ],
   "subPackages": [
     {

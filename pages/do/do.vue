@@ -63,43 +63,50 @@
 					{
 						name: '专项附加扣除填报',
 						imgUrl: '/static/icons-income/do/1.jpg',
-						tips: ''
+						tips: '',
+						url: './info/info'
 					},
 					{
 						name: '专项附加扣除修改和作废',
 						imgUrl: '/static/icons-income/do/2.jpg',
-						tips: ''
+						tips: '',
+						url: ''
 					},
 					{
 						name: '个人养老金扣除信息管理',
 						imgUrl: '/static/icons-income/do/3.jpg',
-						tips: ''
+						tips: '',
+						url: ''
 					},
 				],
 				gridList2:[	//备案
 					{
 						name: '综合所得年度汇算',
 						imgUrl: '/static/icons-income/do/4.jpg',
-						tips: ''
+						tips: '',
+						url: ''
 					},
 					{
 						name: '更正申报和作废申报',
 						imgUrl: '/static/icons-income/do/5.jpg',
-						tips: ''
+						tips: '',
+						url: ''
 					},
 				],
 				gridList3:[	//其他
 					{
 						name: '纳税记录开具',
 						imgUrl: '/static/icons-income/do/6.jpg',
-						tips: ''
+						tips: '',
+						url: ''
 					},
 				],
 				gridList4:[	//公众
 					{
 						name: '委托代理关系管理',
 						imgUrl: '/static/icons-income/do/7.jpg',
-						tips: ''
+						tips: '',
+						url: ''
 					},
 				]
 			}
@@ -108,9 +115,15 @@
 			
 		},
 		methods:{
-			gridClick (item, index) {	//格子菜单点击事件
+			gridClick (item, index) {	
+				//格子菜单点击事件
 				console.log(item);
 				console.log(index);
+				
+				uni.navigateTo({
+					url:item.url
+				})
+				
 			}
 		}
 	}
@@ -131,7 +144,7 @@
 			background-color: rgba(42, 90, 244, 1.0);
 			margin-right: 20upx;
 			margin-left: 20upx;
-			border-radius: 40%;
+			border-radius: 30upx;
 		}
 	}
 	.grid{

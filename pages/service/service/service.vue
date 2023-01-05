@@ -4,6 +4,7 @@
 			<view></view>
 			<text>申报信息查询</text>
 		</view>
+		
 		<view class="grid">
 			<view :class="col == 3 ? 'grid-item-3' : 'grid-item-4'" v-for="(item, index) in gridList" :key="index" @click="gridClick(item, index)">
 				<image :src="item.imgUrl" mode=""></image>
@@ -73,7 +74,8 @@
 					{
 						name: '收入纳税明细查询',
 						imgUrl: '/static/icons-income/service/3.jpg',
-						tips: ''
+						tips: '',
+						url:'./IncomeDetails',
 					},
 				],
 				gridList2:[	//备案
@@ -149,6 +151,9 @@
 		},
 		methods:{
 			gridClick (item, index) {	//格子菜单点击事件
+				uni.navigateTo({
+					url:item.url
+				})
 				console.log(item);
 				console.log(index);
 			}
@@ -171,7 +176,7 @@
 			background-color: rgba(42, 90, 244, 1.0);
 			margin-right: 20upx;
 			margin-left: 20upx;
-			border-radius: 40%;
+			border-radius: 30upx;
 		}
 	}
 	.grid{
