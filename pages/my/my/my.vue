@@ -3,9 +3,13 @@
 		<view class="header" v-bind:class="{'status':isH5Plus}">
 			<view class="userinfo">
 				<view class="face"><image :src="userinfo.face"></image></view>
-				<view class="info">
+				<view class="info" v-if="isLogin">
 					<view class="username">{{userinfo.username}}</view>
 					<view class="username">{{userinfo.mobile}}</view>
+				</view>
+				
+				<view class="login" v-else @click="toLogin()">
+					<view class="username">登陆/注册</view>
 				</view>
 			</view>
 		</view>
@@ -33,9 +37,9 @@
 				userinfo:{
 					username:"姚日天",
 					mobile:"188****8888",
-					face:"../../../static/icons-income/my/face.webp"
+					face:"../../../static/icons-income/my/face.jpeg"
 				},
-				
+				isLogin:false,
 				severList:[
 					[
 						{name:'个人信息',icon:'point.jpg',url:'./myInfo'},
@@ -63,6 +67,11 @@
 				uni.navigateTo({
 					url:e
 				})
+			},
+			toLogin(){
+				uni.navigateTo({
+					url:'./login'
+				})
 			}
 		}
 	}
@@ -83,6 +92,10 @@ page{background-color:#fff}
 			display:flex;flex-flow:wrap;padding-left:30upx;
 			.username{width:100%;color:#fff;font-size:30upx}
 			.integral{display:flex;align-items:center;padding:0 20upx;height:40upx;color:#fff;background-color:rgba(0,0,0,0.1);border-radius:20upx;font-size:24upx}
+		}
+		.login{
+			display:flex;flex-flow:wrap;padding-left:30upx;margin-top: 30upx;
+			.username{width:100%;color:#fff;font-size:40upx}
 		}
 	}
 	.setting{

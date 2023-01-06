@@ -557,6 +557,44 @@
             }
             
         }
+        ,{
+            "path" : "pages/my/my/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人所得税",
+                "enablePullDownRefresh": false,
+                "navigationBarTextStyle": "black",
+                "navigationBarBackgroundColor":"white",
+                "app-plus": {
+                	"titleNView": {
+                		"backButton": {
+                			"title": "返回",
+                			"color": "#007aff"
+                		}
+                	}
+                }
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabBar/home/mySelect",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我要查询",
+                "enablePullDownRefresh": false,
+                "navigationBarTextStyle": "black",
+                "navigationBarBackgroundColor":"white",
+                "app-plus": {
+                	"titleNView": {
+                		"backButton": {
+                			"title": "返回",
+                			"color": "#007aff"
+                		}
+                	}
+                }
+            }
+            
+        }
     ],
 	"subPackages": [{
 			"root": "pages/API",
