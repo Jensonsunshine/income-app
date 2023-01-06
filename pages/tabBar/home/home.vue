@@ -25,7 +25,7 @@
 		</view>
 		<view class="orders">
 			<view class="box">
-				<view class="label" v-for="(row,index) in orderTypeLise" :key="row.name" hover-class="hover" @click="goToPage(row.url)">
+				<view class="label" v-for="(row,index) in orderTypeLise" :key="row.name" hover-class="hover" @click="goToPage(row.url,row.type)">
 					<view class="icon"><image :src="'../../../static/icons-income/'+row.icon"></image></view>
 					{{row.name}}
 				</view>
@@ -34,11 +34,15 @@
 		
 		<view class="img-body">
 			<view class="img-home-body" >
-				<image class="body-img" src="/static/icons-income/home/203.jpeg" mode=""></image>
+				<image class="body-img" src="/static/icons-income/home/210.jpeg" mode=""></image>
+			</view>
+			
+			<view class="img-home-body" @click="goToPage('../../service/service/IncomeDetails',2)">
+				<image class="body-img-1" src="/static/icons-income/home/211.jpeg" mode=""></image>
 			</view>
 			
 			<view class="img-home-body">
-				<image class="footer-img" src="/static/icons-income/home/204.jpeg" mode=""></image>
+				<image class="body-img-2" src="/static/icons-income/home/212.jpeg" mode=""></image>
 			</view>
 		</view>
 	</view>
@@ -48,9 +52,9 @@
 		data() {
 			return {
 				orderTypeLise:[
-					{name:'我要办税',icon:'1.png',url:'/pages/do/do'},
-					{name:'我要查询',icon:'2.png',url:''},
-					{name:'公众服务',icon:'3.png',url:'/pages/service/service/service'},
+					{name:'我要办税',icon:'1.png',url:'/pages/do/do',type:1},
+					{name:'我要查询',icon:'2.png',url:'/pages/tabBar/home/mySelect',type:2},
+					{name:'公众服务',icon:'3.png',url:'/pages/service/service/service',type:1},
 				],
 				background: ['color1', 'color2', 'color3'],
 				indicatorDots: true,
@@ -75,11 +79,18 @@
 			durationChange(e) {
 				this.duration = e.detail.value
 			},
-			goToPage(e) {
+			goToPage(e,type) {
 				console.log("跳转页面："+e)
-				uni.switchTab({
-					url:e
-				})
+				if(type == 1){
+					uni.switchTab({
+						url:e
+					})	
+				}else{
+					uni.navigateTo({
+						url:e
+					})
+				}
+				
 			}
 		}
 	}
@@ -90,7 +101,7 @@ page{background-color:#fff}
 	.header{
 		width:100%;height:550rpx;margin:0 auto;display:flex;align-items:center;border-radius:0 0 5% 5%;background-size: cover;overflow: hidden;
 	}
-	.hover{background-color:#eee}
+	// .hover{background-color:#eee}
 	.orders{
 		width:92%;height:11vw;padding:0 4%;margin-bottom:calc(11vw + 40upx);display:flex;align-items:flex-start;
 		margin-top: -75upx;
@@ -158,6 +169,17 @@ page{background-color:#fff}
 		width: 100%;
 		height:1000upx ;
 	}
+	
+	.body-img-1{
+		width: 100%;
+		height:210rpx ;
+	}
+	
+	.body-img-2{
+		width: 100%;
+		height:1200rpx ;
+	}
+	
 	.footer-img{
 		width: 100%;
 		height: 1000upx;

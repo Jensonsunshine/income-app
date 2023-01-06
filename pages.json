@@ -595,6 +595,44 @@
             }
             
         }
+        ,{
+            "path" : "pages/tabBar/home/shen",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "申报查询（更正/作废申报）",
+                "enablePullDownRefresh": false,
+                "navigationBarTextStyle": "black",
+                "navigationBarBackgroundColor":"white",
+                "app-plus": {
+                	"titleNView": {
+                		"backButton": {
+                			"title": "返回",
+                			"color": "#007aff"
+                		}
+                	}
+                }
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabBar/home/zhuan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "专项附加扣除信息查询",
+                "enablePullDownRefresh": false,
+                "navigationBarTextStyle": "black",
+                "navigationBarBackgroundColor":"white",
+                "app-plus": {
+                	"titleNView": {
+                		"backButton": {
+                			"title": "返回",
+                			"color": "#007aff"
+                		}
+                	}
+                }
+            }
+            
+        }
     ],
 	"subPackages": [{
 			"root": "pages/API",
